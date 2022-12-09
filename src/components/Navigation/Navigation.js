@@ -9,89 +9,89 @@ const Navigation = () => {
 
     return (
         <div className='navbar'>
-            <section class="hero">
-                <div id="myNav" class="overlay">
-                    <div class="overlay-content">
+            <section className="hero">
+                <div id="myNav" className="overlay">
+                    <div className="overlay-content">
 
-                        <div class="overlay-nav">
-                            <div class="logo">
+                        <div className="overlay-nav">
+                            <div className="logo">
                                 <img src={logo} alt="" />
                             </div>
-                            <div class="cross" onclick="closeNav()">
-                                <div class="one"></div>
-                                <div class="two"></div>
+                            <div className="cross" onclick="closeNav()">
+                                <div className="one"></div>
+                                <div className="two"></div>
                             </div>
                         </div>
 
-                        <div class="menu-items">
+                        <div className="menu-items">
                             <ul>
                                 <li>
-                                    <div class="inner">
-                                        <div class="menu"><a href="#" onclick="closeNav()">Home</a></div>
-                                        <div class="line"></div>
-                                        <div class="number">01</div>
+                                    <div className="inner">
+                                        <div className="menu"><a href="#" onclick="closeNav()">Home</a></div>
+                                        <div className="line"></div>
+                                        <div className="number">01</div>
                                     </div>
 
                                 </li>
                                 <li>
-                                    <div class="inner">
-                                        <div class="menu"><a href="#" onclick="closeNav()">About</a></div>
-                                        <div class="line"></div>
-                                        <div class="number">02</div>
+                                    <div className="inner">
+                                        <div className="menu"><a href="#" onclick="closeNav()">About</a></div>
+                                        <div className="line"></div>
+                                        <div className="number">02</div>
                                     </div>
 
                                 </li>
                                 <li>
-                                    <div class="inner">
-                                        <div class="menu"><a href="#" onclick="closeNav()">Works</a></div>
-                                        <div class="line"></div>
-                                        <div class="number">03</div>
+                                    <div className="inner">
+                                        <div className="menu"><a href="#" onclick="closeNav()">Works</a></div>
+                                        <div className="line"></div>
+                                        <div className="number">03</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="inner">
-                                        <div class="menu"><a href="#" onclick="closeNav()">Services</a></div>
-                                        <div class="line"></div>
-                                        <div class="number">04</div>
-                                    </div>
-
-                                </li>
-                                <li>
-                                    <div class="inner">
-                                        <div class="menu"><a href="#" onclick="closeNav()">Blogs</a></div>
-                                        <div class="line"></div>
-                                        <div class="number">05</div>
+                                    <div className="inner">
+                                        <div className="menu"><a href="#" onclick="closeNav()">Services</a></div>
+                                        <div className="line"></div>
+                                        <div className="number">04</div>
                                     </div>
 
                                 </li>
                                 <li>
-                                    <div class="inner">
-                                        <div class="menu"><a href="#" onclick="closeNav()">Contact</a></div>
-                                        <div class="line"></div>
-                                        <div class="number">06</div>
+                                    <div className="inner">
+                                        <div className="menu"><a href="#" onclick="closeNav()">Blogs</a></div>
+                                        <div className="line"></div>
+                                        <div className="number">05</div>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div className="inner">
+                                        <div className="menu"><a href="#" onclick="closeNav()">Contact</a></div>
+                                        <div className="line"></div>
+                                        <div className="number">06</div>
                                     </div>
                                 </li>
                             </ul>
                         </div>
 
-                        <div class="socials">
+                        <div className="socials">
                             <ul>
-                                <li><a href=""><i class="uil uil-facebook-f"></i></a></li>
-                                <li><a href=""><i class="uil uil-instagram"></i></a></li>
-                                <li><a href=""><i class="uil uil-dribbble"></i></a></li>
-                                <li><a href=""><i class="uil uil-linkedin"></i></a></li>
-                                <li><a href=""><i class="uil uil-twitter"></i></a></li>
+                                <li><a href=""><i className="uil uil-facebook-f"></i></a></li>
+                                <li><a href=""><i className="uil uil-instagram"></i></a></li>
+                                <li><a href=""><i className="uil uil-dribbble"></i></a></li>
+                                <li><a href=""><i className="uil uil-linkedin"></i></a></li>
+                                <li><a href=""><i className="uil uil-twitter"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div class="nav-bar">
+                <div className="nav-bar">
                     <nav>
-                        <div class="logo">
+                        <div className="logo">
                             <a href="#"><img src={logo} alt="" /></a>
                         </div>
-                        <div class="menus" id="menus" onscroll="scroll()">
+                        <div className="menus" id="menus" onscroll="scroll()">
                             <ul>
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">About</a></li>
@@ -101,15 +101,15 @@ const Navigation = () => {
                                 <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
-                        <div class="action">
-                            <div class="contact-action">
+                        <div className="action">
+                            <div className="contact-action">
                                 <a href="#">Let's Talk</a>
                             </div>
-                            <div class="active-hamburger">
-                                <div class="hamburger" onclick="openNav()">
-                                    <div class="one"></div>
-                                    <div class="two"></div>
-                                    <div class="three"></div>
+                            <div className="active-hamburger">
+                                <div className="hamburger" onclick="openNav()">
+                                    <div className="one"></div>
+                                    <div className="two"></div>
+                                    <div className="three"></div>
                                 </div>
                             </div>
                         </div>

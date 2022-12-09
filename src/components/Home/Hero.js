@@ -8,25 +8,25 @@ const Hero = () => {
 
     return (
         <div className='hero-section'>
-            <div class="hero-content container">
-                <div class="left-content">
-                    <div class="title">
+            <div className="hero-content container">
+                <div className="left-content">
+                    <div className="title">
                         <h1>Looking for a<br />Website<br />for your Business? </h1>
                     </div>
-                    <div class="description">
+                    <div className="description">
                         <p>We help fast growth teams scale their design<br />
                             roadmaps at lightning speeds</p>
                     </div>
-                    <div class="action-button">
+                    <div className="action-button">
                         <p>Check Works &gt;</p>
-                        <div class="button-arrow">
-                            <div class="arrow-line"></div>
-                            <div class="arrow-angle"></div>
+                        <div className="button-arrow">
+                            <div className="arrow-line"></div>
+                            <div className="arrow-angle"></div>
                         </div>
                     </div>
-                    <div class="social">
+                    <div className="social">
                         <p>Get in touch</p>
-                        <div class="social-icons">
+                        <div className="social-icons">
                             <ul>
                                 <li><a href="#"><FaLinkedinIn></FaLinkedinIn></a></li>
                                 <li><a href="#"><AiOutlineGithub></AiOutlineGithub></a></li>
@@ -35,20 +35,20 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div class="right-content">
-                    <div class="number-one number">
+                <div className="right-content">
+                    <div className="number-one number">
                         <h3>5.0</h3>
                         <p>Rated By 40+ Clients</p>
                     </div>
-                    <div class="number-two number">
+                    <div className="number-two number">
                         <h3>25+</h3>
                         <p>International Clients</p>
                     </div>
-                    <div class="number-three number">
+                    <div className="number-three number">
                         <h3>55+</h3>
                         <p>Project Done</p>
                     </div>
-                    <div class="number-four number">
+                    <div className="number-four number">
                         <h3>10+</h3>
                         <p>Design Awards</p>
                     </div>
