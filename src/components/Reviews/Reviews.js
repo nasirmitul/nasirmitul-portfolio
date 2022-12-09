@@ -47,7 +47,7 @@ const Reviews = () => {
                                 <div className="prev">
                                     <AiOutlineCaretLeft className='change-icon'></AiOutlineCaretLeft>
                                 </div>
-                                <div className="next" onclick="chengeRight()">
+                                <div className="next">
                                     <AiOutlineCaretRight className='change-icon'></AiOutlineCaretRight>
                                 </div>
                             </div>

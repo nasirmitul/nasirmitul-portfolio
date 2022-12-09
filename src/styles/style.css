@@ -243,12 +243,16 @@ nav .action .hamburger:hover .three {
 }
 
 
+.nav-active{
+    width: 100%;
+}
 
-
+.nav-diactive{
+    width: 0%;
+}
 
 .overlay {
     height: 100vh;
-    width: 0%;
     position: fixed;
     z-index: 2;
     top: 0;
