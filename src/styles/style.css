@@ -469,8 +469,15 @@ nav .action .hamburger:hover .three {
 
 .hero-content .left-content .description p {
     color: var(--text-black-light);
-    font-size: 1.7rem;
-    line-height: 32px;
+    font-size: 1.2rem;
+    /* line-height: 32px; */
+    width: 80%;
+}
+
+.hero-content .hero-actions{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
 }
 
 .hero-content .left-content .social {
@@ -695,68 +702,48 @@ nav .action .hamburger:hover .three {
 .my-works .heading {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.heading-title {
+.my-works .heading .heading-title {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-bottom: 20px;
 }
 
-/* .scroll-arrow{
+.my-works .change-project {
     display: flex;
+    gap: 15px;
     align-items: center;
-    gap: 20px;
-    padding-bottom: 20px;
 }
 
-.scroll-arrow .scroll-left,
-.scroll-arrow .scroll-right{
+
+.my-works .change-project .prev,
+.my-works .change-project .next {
+    height: 55px;
+    width: 55px;
+    background-color: var(--bg-secondary);
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: .5s;
-    width: 100px;
-    height: 50px;
-
+    border-radius: 50%;
 }
 
-.scroll-arrow .arrow-line{
-    height: 2px;
-    width: 40px;
-    background-color: var(--white);
-    transition: .3s;
+.my-works .change-project .change-icon {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
-
-.scroll-arrow .arrow-angle{
-    width: 0;
-    height: 0;
-    border-top: 5px solid transparent;
-    border-left: 10px solid var(--white);
-    border-bottom: 5px solid transparent;
-}
-
-.scroll-arrow .scroll-left .arrow-angle {
-    transform: rotate(180deg);
-}
-
-.scroll-arrow  .arrow-line:hover{
-    transform: scaleX(-2);
-}
- */
 
 
 .my-works {
-    /*background: var(--bg);*/
     padding-bottom: 100px;
 }
 
 .works .work-1 {
     display: flex;
     justify-content: center;
-    background: var(--ex-color-one);
     padding: 25px;
     gap: 25px;
     width: 100%;
@@ -781,6 +768,10 @@ nav .action .hamburger:hover .three {
     justify-content: space-between;
     font-size: .9rem;
     margin-bottom: 10px;
+}
+
+.works .work-1 .work-info .work-heading .stack{
+    font-weight: 500;
 }
 
 .works .work-1 .work-info .title h3 {
@@ -815,10 +806,6 @@ nav .action .hamburger:hover .three {
     height: 100%;
     object-fit: cover;
 }
-
-
-
-
 
 
 
@@ -1193,6 +1180,10 @@ nav .action .hamburger:hover .three {
 
 .contact-form form input:focus::placeholder {
     opacity: .8;
+}
+
+.contact-form form input:focus{
+    border-bottom: 1px solid var(--button-bg);
 }
 
 .contact-form .needs {

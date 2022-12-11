@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "project_type": "Car selling website",
+        "stack": "Full Stack",
+        "name": "Drift",
+        "description":"Drift is car selling website where you can check cars based on categories. Either you can be the seller or buyer. As a seller you can add cars here based on categories and also can advertise them in the home page and as a buyer you can book car based on your choice.",
+        "technology": "React, React Router, Firebase, React Hooks, Axios, Stripe, NodeJS, Express JS, JWT, MongoDB",
+        "image": "https://i.ibb.co/m8MpH9q/drift.png",
+        "background_color":"#D1F2EB"
+    },
+    {
+        "id": 2,
+        "project_type": "Service based Website",
+        "stack": "Full Stack",
+        "name": "Croft",
+        "description": "Croft is a single person service-based website where the owner will showcase his/her services. Users can see and avail the service and also can add review for that service. As well review can be edited or the user can delete their review. Admin/Owner can add new service.",
+        "technology": "React, React Router, Firebase, React Hooks, NodeJS, Express JS, JWT, MongoDB",
+        "image": "https://i.ibb.co/G9Z83Mt/croft.png",
+        "background_color":"#EBDEF0"
+    },
+    {
+        "id": 3,
+        "project_type": "Learning platform",
+        "stack": "Front End",
+        "name": "StudyShake",
+        "description": "StudyShake is learning platform website. Users can see the course content by signing up in the site. Desktop and Mobile responsive.",
+        "technology": "HTML, CSS, React, React Router, Firebase, React Hooks",
+        "image": "https://i.ibb.co/KykZBxg/studyshake.png",
+        "background_color":"#D6EAF8"
+    }
+]
+
+
+
+
